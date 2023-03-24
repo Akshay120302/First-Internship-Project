@@ -1,0 +1,305 @@
+
+.background {
+    background: transparent;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 30, 30);
+    max-width: 90%;
+    margin: auto;
+    height: 80%;
+    margin-top: 65px;
+}
+
+.firstHalf {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstHalf img {
+    display: flex;
+    border-radius: 9050px;
+}
+
+.text-big {
+    font-family: 'Piazzolla', serif;
+    font-weight: bold;
+    font-size: 41px;
+    text-align: center;
+    color: cornsilk;
+    font-family: math;
+    text-shadow: 4px 4px 10px rgb(231, 143, 162);
+}
+
+.text-small {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+#service {
+    margin: 34px;
+    display: flex;
+}
+
+#service .box {
+    padding: 100px;
+    margin: 3px 6px;
+    border-radius: 28px;
+}
+
+#service .box img {
+    margin-top: 10px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 200px;
+}
+
+#service .box p {
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+
+    padding: 100px;
+    margin: 3px 6px;
+    border-radius: 28px;
+}
+
+#services .box img {
+    margin-top: 10px;
+    height: 150px;
+    margin:0px;
+    display: block;
+    border-radius: 100px;
+}
+
+#services .box p {
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.center {
+    text-align: center;
+    color: black;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 650px) {
+.column {
+width: 100%;
+display: block;
+}
+}
+
+pre {
+    margin-top: 434px;
+    margin-left: -421px;
+    font-weight: lighter;
+    font-size: 25px;
+    display: inline-block;
+    color: rgb(255 255 255);
+    /* animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; */
+    
+}
+
+.akshay{
+    margin-left: -320px;
+    margin-bottom: 81px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.anjali{
+    margin-left: -620px;
+    text-align: center;
+}
+
+.rahul{
+    margin-left: -664px;
+    margin-bottom: 81px;
+    font-size: 17px;
+    text-align: center;
+}
+
+marquee {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.background-1{
+    background-color: #1b2639;
+    align-items: center;
+    height: 40px;
+    margin-left: -2px;
+    margin-top: -68px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:5rem;
+}
+
+#myVideo {
+    transform: translateZ(-40px) scale(5);
+    position: absolute;
+    height: 292px;
+    width: 33%;
+    object-fit: cover;
+    z-index: -1;
+    margin-top: 390px;
+}
+
+/* .contact {
+    background: #f3e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 90vh;
+    margin: -1px 0 -1px;
+    width: 92%;
+    margin-left: 54px;
+    margin-bottom: 20px;
+} */
+
+
+
+
+
+
+
+.imsec{
+
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.imfir{
+    
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.imthi{
+    
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bg{
+    background-image: url(bg-6.jpg);
+}
+
+.bg{
+    position:relative;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 573px;
+    margin-left: -5px;
+    margin-right: -2px;
+    bottom: 74px;
+}
+
+.first{
+    width: 252px;
+    height: 250px;
+    /* background-color: beige; */
+    display: flex;
+    margin : 126px;
+    box-shadow: 10px 10px 34px rgb(107 87 87);
+    border: 1px solid white;
+    border-radius: 4px;
+    justify-content: center;
+    border-radius: 10px;
+    /* animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite; */
+}
+
+.second{
+    width: 353px;
+    height: 350px;
+    /* background-color: brown; */
+    display: flex;
+    margin : 75px;
+    box-shadow: 10px 10px 34px rgb(107 87 87);
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px; 
+    /* animation: typing 5.5s steps(300, end), blink-caret .75s step-end infinite; */
+}
+
+.third{
+    width: 252px;
+    height: 250px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    margin : 126px;
+    box-shadow: 10px 10px 34px rgb(107 87 87);
+    border: 1px solid white;
+    border-radius: 4px;
+    border-radius: 10px;
+}
+
+.gallery{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -535px;
+}
